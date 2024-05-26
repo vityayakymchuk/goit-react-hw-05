@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.input {
+  padding-left: 10px;
+  width: 300px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn {
+  width: 80px;
+  height: 31px;
+  margin-left: 0;
+  background-color: #79b8f3;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.input:hover,
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

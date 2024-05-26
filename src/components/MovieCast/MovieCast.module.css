@@ -1,0 +1,17 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+}
+.listItem {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.info {
+  font-size: 20px;
+}

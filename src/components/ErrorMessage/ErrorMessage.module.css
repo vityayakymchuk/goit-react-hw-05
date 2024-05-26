@@ -1,0 +1,7 @@
+.error {
+  font-size: 24px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
