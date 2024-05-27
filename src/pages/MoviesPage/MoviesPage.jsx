@@ -3,9 +3,9 @@ import css from './MoviesPage.module.css'
 import { getMovie } from '../../FetchData'
 import SearchMovie from '../../components/SearchMovie/SearchMovie';
 import { useSearchParams } from "react-router-dom";
-import SearchResultMovies from '../../components/SearchResultMovies/SearchResultMovies';
 import ErrorMessage from '../../components/ErrorMessage/ErrorMessage'
-import Loader from '../../components/Loader/ Loader';
+import Loader from '../../components/Loader/Loader';
+import MovieList from '../../components/MovieList/MovieList';
 
 export default function MoviesPage() {
 
@@ -48,7 +48,7 @@ export default function MoviesPage() {
       {check === 0 && <p className={css.check}>There is no movies with this request. Please, try again</p>}
       {isError && <ErrorMessage />}
       {isLoading && <Loader isLoading={isLoading} />}
-      <SearchResultMovies movies={movies} />
+      <MovieList movies={movies} />
     </div>
   )
 }

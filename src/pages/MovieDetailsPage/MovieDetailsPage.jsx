@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, Suspense } from 'react';
 import { useParams, Link, Outlet, useLocation } from "react-router-dom";
 import { getMovieDetails } from '../../FetchData';
-import Loader from '../../components/Loader/ Loader';
+import Loader from '../../components/Loader/Loader';
 import ErrorMessage from '../../components/ErrorMessage/ErrorMessage';
 import css from './MovieDetailsPage.module.css';
 import { RiArrowGoBackFill } from "react-icons/ri";

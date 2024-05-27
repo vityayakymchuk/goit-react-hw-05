@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getMovieCredits } from '../../FetchData';
 import css from './MovieCast.module.css';
-import Loader from '../../components/Loader/ Loader';
+import Loader from '../Loader/Loader';
 import ErrorMessage from '../../components/ErrorMessage/ErrorMessage';
 
 

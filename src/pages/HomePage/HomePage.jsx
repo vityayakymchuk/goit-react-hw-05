@@ -3,7 +3,7 @@ import { getPopular } from '../../FetchData'
 import css from './HomePage.module.css'
 
 import ErrorMessage from '../../components/ErrorMessage/ErrorMessage'
-import Loader from '../../components/Loader/ Loader';
+import Loader from '../../components/Loader/Loader';
 import MovieList from '../../components/MovieList/MovieList';
 
 export default function HomePage() {
